@@ -1,4 +1,4 @@
-local Players = game:GetService("Players")
+  local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
 local UserInputService = game:GetService("UserInputService")
 local LocalPlayer = Players.LocalPlayer
@@ -404,7 +404,7 @@ local content, isReady = Players:GetUserThumbnailAsync(userId, thumbType, thumbS
 
 StarterGui:SetCore("SendNotification", {
 	Title = "环绕 V1",
-	Text = "enjoy",
+	Text = "CN_2014ldx",
 	Icon = content,
 	Duration = 5
 })
